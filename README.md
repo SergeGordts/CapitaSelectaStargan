@@ -1,8 +1,10 @@
-***Research Topic
+Research Topic
+
 Applying StarGAN to FFHQ Data: A Comparative Study with Original StarGAN Results
 on Facial Attribute Transformations
 
-***Research Aim
+Research Aim
+
 The aim of this research is to investigate the effectiveness of the StarGAN model in
 generating attribute-based transformations on new, high-quality datasets.
 Specifically, the study applies StarGAN trained on CelebA (128x128 resolution) to images from the
@@ -11,7 +13,8 @@ transformations: Smiling and Blond Hair.
 This research will compare the results of these transformations to those reported in the original StarGAN study to assess model
 generalizability and performance on diverse data sources.
 
-***Methodological Approach
+Methodological Approach
+
 • Model Selection and Data Preparation Model: Using the pre-trained StarGAN model
 (CelebA, 128x128 resolution) as provided by the original authors, trained on CelebA
 for facial attribute transformations. Data: Sample images from the FFHQ dataset to
@@ -29,7 +32,8 @@ racy to quantify how well the generated images reflect the intended attributes.
 original StarGAN study on CelebA to assess differences in attribute representation,
 realism, and model generalizability.
 
-***Resources
+Resources
+
 • Datasets: FFHQ: High-resolution images from the Flickr-Faces-HQ (FFHQ) dataset,
 sampled at 128x128 resolution.
 • Pre-trained Models: StarGAN: Pre-trained model trained on CelebA (128x128), from
