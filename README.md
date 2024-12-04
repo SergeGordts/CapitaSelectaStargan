@@ -20,14 +20,17 @@ Methodological Approach
 for facial attribute transformations. Data: Sample images from the FFHQ dataset to
 match the input size and format expected by the model (128x128 resolution, normal-
 ized).
+
 • Attribute Transformation Application Attributes: Apply transformations targeting
 the "Smiling" and "Blond Hair" attributes to the FFHQ data. Generation Process:
 For each image, use StarGAN to generate two variants: one with the "Smiling" trans-
 formation and another with the "Blond Hair" transformation.
+
 • Quantitative Evaluation Classifier: Use a pre-trained facial expression classifier (VG-
 GFace2, OpenFace, ...) to measure the presence and accuracy of the "Smiling" at-
 tribute in transformed images. Metrics: Calculate metrics such as classification accu-
 racy to quantify how well the generated images reflect the intended attributes.
+
 • Comparison and Analysis Compare the FFHQ transformation results to those from the
 original StarGAN study on CelebA to assess differences in attribute representation,
 realism, and model generalizability.
