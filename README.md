@@ -20,6 +20,7 @@ Methodological Approach
 for facial attribute transformations. Data: Sample images from the FFHQ dataset to
 match the input size and format expected by the model (128x128 resolution, normal-
 ized).
+
 Since the FFHQ dataset exceeds the file size of Github (100MB) it is stored locally from
 https://drive.google.com/open?id=1tg-Ur7d4vk1T8Bn0pPpUSQPxlPGBlGfv.
 
@@ -27,7 +28,8 @@ https://drive.google.com/open?id=1tg-Ur7d4vk1T8Bn0pPpUSQPxlPGBlGfv.
 2 attributes to the FFHQ data. Generation Process:
 For each image, use StarGAN to generate two variants: one for each attriibute transformation.
 Since we use the pretrained Stargan model (downloaded via the notebook) the following attributes are
-available: Black_Hair, Blond_Hair, Brown_Hair, Male, Young
+available: Black_Hair, Blond_Hair, Brown_Hair, Male, Young.
+
 The pretrained model exceeds the file size of Github (100MB) so it is stored locally
 
 • Quantitative Evaluation Classifier: Use a pre-trained facial expression classifier (VG-
