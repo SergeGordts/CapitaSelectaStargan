@@ -18,8 +18,7 @@ Methodological Approach
 • Model Selection and Data Preparation Model: Using the pre-trained StarGAN model
 (CelebA, 128x128 resolution) as provided by the original authors, trained on CelebA
 for facial attribute transformations. Data: Sample images from the FFHQ dataset to
-match the input size and format expected by the model (128x128 resolution, normal-
-ized).
+match the input size and format expected by the model (128x128 resolution, normalized).
 
 Since the FFHQ dataset exceeds the file size of Github (100MB) it is stored locally from
 https://drive.google.com/open?id=1tg-Ur7d4vk1T8Bn0pPpUSQPxlPGBlGfv.
@@ -30,7 +29,7 @@ For each image, use StarGAN to generate two variants: one for each attriibute tr
 Since we use the pretrained Stargan model (downloaded via the notebook) the following attributes are
 available: Black_Hair, Blond_Hair, Brown_Hair, Male, Young.
 
-The pretrained model exceeds the file size of Github (100MB) so it is stored locally
+The pretrained model exceeds the file size of Github (100MB) so it is stored locally.
 
 • Quantitative Evaluation Classifier: Use a pre-trained facial expression classifier (VG-
 GFace2, OpenFace, ...) to measure the presence and accuracy of the "Smiling" at-
