@@ -14,8 +14,9 @@ This research will compare the results of these transformations to those reporte
 generalizability and performance on diverse data sources.
 
 Data: 
-• Full CelebA dataset
-• FFHQ dataset (128*128)
+
+• Full CelebA dataset  
+• FFHQ dataset (128*128)  
 
 Methodological Approach
 
