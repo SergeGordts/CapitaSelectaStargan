@@ -1,9 +1,9 @@
-Research Topic
+**Research Topic**
 
 • Applying StarGAN to FFHQ Data: A Comparative Study with Original StarGAN Results
 on Facial Attribute Transformations
 
-Research Aim
+**Research Aim**
 
 • The aim of this research is to investigate the effectiveness of the StarGAN model in
 generating attribute-based transformations on new, high-quality datasets.
@@ -13,12 +13,12 @@ transformations.
 This research will compare the results of these transformations to those reported in the original StarGAN study to assess model
 generalizability and performance on diverse data sources.
 
-Data: 
+**Data**
 
 • Full CelebA dataset  
 • FFHQ dataset (128*128)  
 
-Methodological Approach
+**Methodological Approach**
 
 • Model Selection: The pre-trained StarGAN model
 (on dataset CelebA) as provided by the original authorsis is limited to transformations on 5 default attributes.
@@ -46,7 +46,7 @@ Since the FFHQ dataset exceeds the file size of Github (100MB) it is stored loca
 https://drive.google.com/open?id=1tg-Ur7d4vk1T8Bn0pPpUSQPxlPGBlGfv.
 The trained model also exceeds the file size of Github (100MB) so it is stored locally.
 
-Resources
+**Resources**
 
 . Data: Full CelebA dataset & FFHQ dataset
 . Trained Model of StarGAN on CelebA dataset.
