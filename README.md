@@ -24,17 +24,14 @@ Methodological Approach
 (on dataset CelebA) as provided by the original authorsis is limited to transformations on 5 default attributes.
 To overcome this we train the model on the full CelebA dataset for all 40 attributes.
 
-• Data Preparation: sample images from the FFHQ dataset to
-match the input size and format expected by the model (128x128 resolution, normalized).
+• Data Preparation: sample images from the FFHQ dataset matched to the input size and format expected by the model (128x128 resolution, normalized).
 
-• Apply transformations targeting 2 attributes to the FFHQ data. 
+• Apply transformations targeting 2 attributes to the FFHQ data.  
+For each sampledimage, use trained StarGAN to generate two variants: a single task transformation for each attribute, and a multi-task transformation for both attributes.
 
-• Generation Process:
-For each image, use StarGAN to generate two variants: a single task transformation for each attribute, and a multi-task transformation for both attributes.
+• Qualitative evaluation is performed.
 
-• Qualitative Evaluation is performed.
-
-• Quantitative Evaluation Classifier: Use a pre-trained classifier (VG-
+• Quantitative evaluation Classifier: Use a pre-trained classifier (VG-
 GFace2, OpenFace, ...) to measure the presence and accuracy of the at-
 tribute in transformed images. 
 Metrics: Calculate metrics such as classification accu-
