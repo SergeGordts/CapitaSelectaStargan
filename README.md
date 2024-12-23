@@ -17,6 +17,7 @@ generalizability and performance on diverse data sources.
 
 • Data Preparation: 
 Sample images from the FFHQ dataset matched to the input size and format expected by the pretrained Stargan model (128x128 resolution, normalized). 
+
 Images from the CelebA dataset for training and finetuning of the MobilenetV2 classifier.
 
 • MobileNetV2 Classifier Training: 
@@ -34,14 +35,19 @@ Results are compared against the CelebA transformations to determine how well St
 
 • Evaluation Metrics
   • Classifier-Based Accuracy: Calculate metrics such as classification accuracy to quantify how well the generated images reflect the intended attributes.
+  
   • Precision and Recall
+  
   • F1 score
+  
   • Comparative Analysis: Accuracy results from CelebA and FFHQ are compared to highlight performance differences and generalizability.
+  
   • Qualitative Analysis: a random selected set of transformed images are visually inspected to assess realism, identity preservation, and unintended changes.
   
-
 **Resources**
 
 • Data: FFHQ dataset & CelebA dataset 
+
 • Pretrained model of StarGAN on CelebA dataset 
+
 • MobilenetV2: https://github.com/d-li14/mobilenetv2.pytorch 
