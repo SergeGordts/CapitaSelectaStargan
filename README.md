@@ -42,6 +42,6 @@ Results are compared against the CelebA transformations to determine how well St
 
 **Resources**
 
-. Data: FFHQ dataset & CelebA dataset
-. Pretrained model of StarGAN on CelebA dataset.
-. MobilenetV2: https://github.com/RangiLyu/EfficientNet-Lite or https://github.com/d-li14/mobilenetv2.pytorch
+• Data: FFHQ dataset & CelebA dataset 
+• Pretrained model of StarGAN on CelebA dataset 
+• MobilenetV2: https://github.com/d-li14/mobilenetv2.pytorch 
