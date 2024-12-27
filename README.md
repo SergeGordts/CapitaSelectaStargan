@@ -21,12 +21,12 @@ generalizability and performance on diverse data sources.
 
 • MobileNetV2 Classifier Training: 
 >A trained and finetuned MobileNetV2 classifier on the CelebA dataset to predict five specific attributes from the CelebA dataset.   
-The objective is to use this classifier to assess the effectiveness of attribute-based transformations applied by StarGAN.
+The objective is to use this classifier to assess the effectiveness of attribute-based transformations applied by StarGAN.  
 The code is in the directory Classifier
 >
 • Single and Multi-Transformation on CelebA
 >The focus is on the evaluation of single and multi-attribute transformations applied to the CelebA dataset, using a trained MobileNetV2 classifier to measure the effectiveness of these transformations.   
-We assess the performance of the pretrained StarGAN model in generating transformations on the CelebA dataset, which can be used as a baseline for comparisons with StarGAN's ability to perform similar transformations on the Flickr-Faces-HQ (FFHQ) dataset.
+We assess the performance of the pretrained StarGAN model in generating transformations on the CelebA dataset, which can be used as a baseline for comparisons with StarGAN's ability to perform similar transformations on the Flickr-Faces-HQ (FFHQ) dataset.  
 The code is in the directory StarGan_single_multi_transformations  
 
 • Generalizability Test on FFHQ
