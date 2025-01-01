@@ -18,7 +18,8 @@ generalizability and performance on diverse data sources.
 • Data Preparation:  
 >Sample images from the FFHQ dataset matched to the input size and format expected by the pretrained Stargan model (128x128 resolution, normalized).  
 >Images from the CelebA dataset for training and finetuning of the MobilenetV2 classifier.  
-
+The code is in the directory data preparation (mobilenetv2 needs tensorflow, see environment.yaml)
+>
 • MobileNetV2 Classifier Training: 
 >A trained and finetuned MobileNetV2 classifier on the CelebA dataset to predict five specific attributes from the CelebA dataset.   
 The objective is to use this classifier to assess the effectiveness of attribute-based transformations applied by StarGAN.  
