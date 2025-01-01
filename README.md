@@ -29,18 +29,11 @@ The code is in the directory Classifier
 >Single and multi transformation by the pretrained Stargan model on a CelebA dataset are applied.
 The code is in the directory StarGan_single_multi_transformations  
 
-• Generalizability Test on FFHQ
->Similar to CelebA, single and multi-transformations are applied to the FFHQ images using StarGAN.The MobileNetV2 classifier evaluates the transformed images' accuracy in achieving the target attributes.   
-Results are compared against the CelebA transformations to determine how well StarGAN generalizes to new, higher-quality data.  
-The code is in the directory Generalizability Test on FFHQ  
-
 • Evaluation Metrics
-  >• Classifier-Based Accuracy: Calculate metrics such as classification accuracy to quantify how well the generated images reflect the intended attributes.  
-  >• Precision and Recall  
-  >• F1 score  
-  >• Comparative Analysis: Accuracy results from CelebA and FFHQ are compared to highlight performance differences and generalizability.  
+  >• Accuracy, F1 and confusion metrics are calculated to quantify how well the generated images (for images from CelebA and FFHQ) reflect the intended attributes.  
   >• Qualitative Analysis: a random selected set of transformed images are visually inspected to assess realism, identity preservation, and unintended changes.  
-  
+  The code is in the directory metrics.
+
 **Resources**  
 >• Data: FFHQ dataset & CelebA dataset   
 >• Pretrained model of StarGAN on CelebA dataset   
