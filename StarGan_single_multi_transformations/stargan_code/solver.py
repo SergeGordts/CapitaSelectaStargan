@@ -533,6 +533,9 @@ class Solver(object):
 
         with torch.no_grad():
             for i, (x_real, c_org) in enumerate(data_loader):
+                # Print original labels (c_org) for debugging
+                print(f"Original labels for batch {i}: {c_org}")
+
                 # Prepare input images and target domain labels.
                 x_real = x_real.to(self.device)
                 c_trg_list = self.create_labels(c_org, self.c_dim, self.dataset, self.selected_attrs)
@@ -546,6 +549,13 @@ class Solver(object):
 
                 # Translate images.
                 for j, c_trg in enumerate(c_trg_list):
+                     # Print the label and its value for debugging.
+                    print(f"Target label for attribute '{self.selected_attrs[j]}': {c_trg}")
+
+
+                    # Print the original label for comparison (optional).
+                    print(f"Original label for attribute '{self.selected_attrs[j]}': {c_org[0, j]}")
+
                     x_fake = self.G(x_real, c_trg)
 
                     # Save each image in the batch separately.
@@ -556,7 +566,7 @@ class Solver(object):
                         result_path = os.path.join(self.result_dir, result_filename)
                         save_image(self.denorm(img.data.cpu()), result_path)  # Save the individual image
                         print(f"Saved image {result_filename}...")
-
+                        print(f"Saved image {result_filename} with label '{self.selected_attrs[j]}'...")
 
 
 
