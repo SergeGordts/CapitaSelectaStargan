@@ -31,7 +31,8 @@ The code is in the directory StarGan_single_multi_transformations
 
 • Evaluation Metrics
   >• Accuracy metric is calculated to quantify how well the generated images (for images from CelebA and FFHQ) reflect the intended attributes.  
-  >• Qualitative Analysis: a random selected set of transformed images are visually inspected to assess realism, identity preservation, and unintended changes.  
+  >• Qualitative Analysis: a random selected set of transformed images are visually inspected to assess realism, identity preservation, and unintended changes. 
+     Images and transformed images are shown side by side with a slider (0-10) to choose score of inspection.
   The code is in the directory metrics.
 
 **Resources**  
